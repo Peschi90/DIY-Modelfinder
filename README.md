@@ -14,7 +14,7 @@ for this please look inside the Datasheet.
 You have to Replace the Resistor, next to gnd input, with a 10k Resistor for 140mAh charging current. That is completly enough.
 
 
-Connection Diagramm
+Connection Diagramm </br>
                                                         FC +      Buz +
                                        |---------|       ^         ^
                 __________________     |         |       |         |          |
