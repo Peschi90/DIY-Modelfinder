@@ -15,18 +15,17 @@ You have to Replace the Resistor, next to gnd input, with a 10k Resistor for 140
 
 
 Connection Diagramm
-
- *                                                        FC +      Buz +
- *                                       |---------|       ^         ^
- *                __________________     |         |       |         |          |
- *  Lipo +-------| Charger        + |----|     |----------------------------------|
- *               | Lipo    | Lipo   |          |   8       7         6          5 |
- *               | Input   | Output |          |             ATtiny85             |
- *  Lipo --------|         |      - |-->Pin4   |O 1       2         3          4  |
- *               | 5V Power input   |          |----------------------------------|
- *               |__________________|             |       |         |          |
- *                   |         |                                           |--GND----> Buz -
- *                   |         |------>Pin7              Charger Out -<----|
- *                   |         |
- *                FC Gnd /    FC + 
+                                                        FC +      Buz +
+                                       |---------|       ^         ^
+                __________________     |         |       |         |          |
+  Lipo +-------| Charger        + |----|     |----------------------------------|
+               | Lipo    | Lipo   |          |   8       7         6          5 |
+               | Input   | Output |          |             ATtiny85             |
+  Lipo --------|         |      - |-->Pin4   |O 1       2         3          4  |
+               | 5V Power input   |          |----------------------------------|
+               |__________________|             |       |         |          |
+                   |         |                                           |--GND----> Buz -
+                   |         |------>Pin7              Charger Out -<----|
+                   |         |  
+                FC Gnd /    FC + 
 
